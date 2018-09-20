@@ -29,7 +29,7 @@ window.onload = function(){
     }
   });
 
-  bird = new bird(); //Bird erstellen
+  bird = new bird; //Bird erstellen
   /*eigentlich nur ein extra, damit der Bird sofort bei Aufruf
   der Seite in der Startposition ist*/
   bird.show();
@@ -66,7 +66,7 @@ window.onload = function(){
     nächsten Interval auf die maximalen und minimalen
     Werte positioniert wird.*/
     bird.coords();
-  }, 15);
+  }, 20);
 
 }
 
