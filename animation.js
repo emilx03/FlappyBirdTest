@@ -66,7 +66,7 @@ window.onload = function(){
     nächsten Interval auf die maximalen und minimalen
     Werte positioniert wird.*/
     bird.coords();
-  }, 20);
+  }, 15);
 
 }
 
