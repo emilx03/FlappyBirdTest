@@ -29,7 +29,7 @@ window.onload = function(){
     }
   });
 
-  bird = new bird;
+  bird = new bird();
   /*eigentlich nur ein extra, damit der Bird sofort bei Aufruf
   der Seite in der Startposition ist*/
   bird.show();
