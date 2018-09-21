@@ -66,7 +66,7 @@ window.onload = function(){
     nächsten Interval auf die maximalen und minimalen
     Werte positioniert wird.*/
     bird.coords();
-  }, 10);
+  }, 5);
 
 }
 
@@ -74,8 +74,8 @@ function bird(){
 
   this.x = 20;
   this.y = 300-15;
-  this.lift = -8;
-  this.gravity = 0.3;
+  this.lift = -4;
+  this.gravity = 0.15;
   this.velocity = 0;
 
   var bird = document.getElementById('bird');
